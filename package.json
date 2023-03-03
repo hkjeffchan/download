@@ -1,6 +1,6 @@
 {
-	"name": "download",
-	"version": "8.0.0",
+	"name": "@hkjeffchan/dl",
+	"version": "9.0.0",
 	"description": "Download and extract files",
 	"license": "MIT",
 	"repository": "kevva/download",
@@ -30,21 +30,24 @@
 		"content-disposition": "^0.5.2",
 		"decompress": "^4.2.1",
 		"ext-name": "^5.0.0",
-		"file-type": "^11.1.0",
-		"filenamify": "^3.0.0",
-		"get-stream": "^4.1.0",
-		"got": "^8.3.1",
-		"make-dir": "^2.1.0",
-		"p-event": "^2.1.0",
-		"pify": "^4.0.1"
+		"file-type": "^18.2.1",
+		"filenamify": "^5.1.1",
+		"get-stream": "^6.0.1",
+		"got": "^12.5.3",
+		"make-dir": "^3.1.0",
+		"p-event": "^5.0.1",
+		"pify": "^6.1.0"
 	},
 	"devDependencies": {
-		"ava": "^1.4.1",
+		"ava": "^5.2.0",
 		"is-zip": "^1.0.0",
-		"nock": "^10.0.6",
-		"path-exists": "^3.0.0",
+		"nock": "^13.3.0",
+		"path-exists": "^5.0.0",
 		"random-buffer": "^0.1.0",
-		"rimraf": "^3.0.0",
-		"xo": "^0.24.0"
+		"rimraf": "^4.2.0",
+		"xo": "^0.53.1"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
